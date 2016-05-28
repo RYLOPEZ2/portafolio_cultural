@@ -5,7 +5,32 @@
  *
  * Made By MaterializeCSS.com
  */
+ 
+ @font-face {
 
+font-family:WolfintheCity;
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/miletra/WolfintheCity.ttf);
+
+}
+
+h1,h2{
+  font-size:8em;
+  
+  font-family:WolfintheCity; 
+}
+h3,h4,h5,h6{
+  font-size:4em;
+  font-family:WolfintheCity;
+}
+.slider{
+        height:100%
+      }
+.aclarar{
+  BACKGROUND-COLOR:rgba(255,255,255,0.5);
+  
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
