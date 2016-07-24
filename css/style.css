@@ -15,14 +15,22 @@ src: url(../fonts/miletra/WolfintheCity.ttf);
 
 }
 
+@font-face{
+font-family: Prototype;
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/prototype/Prototype.ttf);
+
+}
+
 h1,h2{
   font-size:8em;
   
   font-family:WolfintheCity; 
 }
 h3,h4,h5,h6{
-  font-size:4em;
-  font-family:WolfintheCity;
+  font-size:2em;
+  font-family: Prototype;
 }
 .slider{
         height:100%
@@ -79,4 +87,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+h3{
+  padding: 30px;
 }
