@@ -6,14 +6,7 @@
  * Made By MaterializeCSS.com
  */
  
- @font-face {
 
-font-family:WolfintheCity;
-font-style: normal;
-font-weight: normal;
-src: url(../fonts/miletra/WolfintheCity.ttf);
-
-}
 
 @font-face{
 font-family: Prototype;
@@ -23,18 +16,30 @@ src: url(../fonts/prototype/Prototype.ttf);
 
 }
 
+@font-face{
+font-family: Festival;
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/festival_jomfruer/festivaljomfruer.ttf);
+
+}
+
 h1,h2{
-  font-size:8em;
-  
-  font-family:WolfintheCity; 
+  font-size:4em;
+  font-family:Prototype ;
+  padding: 30px; 
 }
-h3,h4,h5,h6{
+h3,h4{
+  font-family: Festival;
+}
+
+h5,h6{
   font-size:2em;
-  font-family: Prototype;
+  font-family: Festival ;
 }
-.slider{
-        height:100%
-      }
+
+
+      
 .aclarar{
   BACKGROUND-COLOR:rgba(255,255,255,0.5);
   
@@ -90,5 +95,40 @@ footer.page-footer {
 }
 
 h3{
+  margin-top: 50px;
   padding: 30px;
+}
+
+#img_slide{
+  width: 100%;
+}
+#imgsection{
+  width: 100%;
+  float: left;
+  border-radius: 50%;
+  padding: 5%;
+}
+#p_section{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#ffcdd2 ;
+  
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+#dropdown1{
+  margin-top:60px;
+
+}
+li{
+  font-family: Roboto;
+  font-size: 20px;
+  color: black;
 }
